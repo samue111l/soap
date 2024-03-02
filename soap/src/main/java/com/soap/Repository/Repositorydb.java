@@ -7,5 +7,5 @@ import com.soap.Entities.Motordb;
 
 @Repository("repositorydb")
 public interface Repositorydb extends JpaRepository<Motordb, Integer> {
-    void deleteByName(String nombre);
+    void deleteByNombre(String nombre);
 }

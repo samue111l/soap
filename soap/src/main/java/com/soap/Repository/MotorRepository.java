@@ -75,7 +75,7 @@ public class MotorRepository {
                 iterator.remove();
 
                 // Optionally, you can also delete the motor from the database
-                repositorydb.deleteByName(name);
+                repositorydb.deleteByNombre(name);
             }
         }
     }
